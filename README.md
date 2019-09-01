@@ -1,1 +1,2 @@
-# devops_capstone
+# Udacity DevOps Nanodegree Capstone
+## Wally Thornton
