@@ -13,7 +13,7 @@ pipeline {
         stage('Clone repository') {
             steps {
                 sh 'git clone https://https://github.com/wallyt/python-flask-docker'
-                sh 'ls -l'
+                sh 'ls -la'
             }
         }
         stage('Validate python code') {
