@@ -8,7 +8,7 @@ jx create cluster eks --cluster-name=capstone-kube --skip-installation=true
 jx create cluster eks --skip-installation
 
 ### Install Jenkins X into cluster
-jx install --provider=eks --default-environment-prefix=capstone-kube
+jx install --provider=eks --domain=groksit.com --default-environment-prefix=capstone-kube
 jx install --provider=eks --no-tiller
 
 ### Create new Spring Boot application
@@ -24,3 +24,4 @@ jx promote --version 0.0.1 --env production
 
 
 https://github.com/jenkins-x-quickstarts for app
+https://github.com/jenkins-x-quickstarts/php-helloworld
